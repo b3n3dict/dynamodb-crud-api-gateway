@@ -1,0 +1,26 @@
+{
+  "name": "dynamodb-crud-api-gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.310.0",
+    "@aws-sdk/util-dynamodb": "^3.310.0"
+  },
+  "devDependencies": {
+    "serverless-iam-roles-per-function": "^3.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b3n3dict/dynamodb-crud-api-gateway.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b3n3dict/dynamodb-crud-api-gateway/issues"
+  },
+  "homepage": "https://github.com/b3n3dict/dynamodb-crud-api-gateway#readme"
+}
